@@ -1,0 +1,106 @@
+om@om-PC MINGW64 ~
+$  ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ eclipse-workspace/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+
+om@om-PC MINGW64 ~
+$ git ssh-keygen -t rsa
+git: 'ssh-keygen' is not a git command. See 'git --help'.
+
+om@om-PC MINGW64 ~
+$ ssh-keygen -t rsa
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/om/.ssh/id_rsa):
+Created directory '/c/Users/om/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/om/.ssh/id_rsa.
+Your public key has been saved in /c/Users/om/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:GsCHOOyYZuRqYad8YZ1iCyZE/vbPLzBacOe2PAT6ag4 om@om-PC
+The key's randomart image is:
++---[RSA 2048]----+
+| .               |
+|o. o .           |
+| ++ + .          |
+|++.o.=..         |
+|+O.O+o= S        |
+|O O.=+ *         |
+|.E o+.B .        |
+|. oo .o=         |
+|  oo.  o+.       |
++----[SHA256]-----+
+
+om@om-PC MINGW64 ~
+$ pwd
+/c/Users/om
+
+om@om-PC MINGW64 ~
+$ git remote add origin https://github.com/samuel-konakalla/Test.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+om@om-PC MINGW64 ~
+$ git config --global user.name "samuel-konakalla"
+
+om@om-PC MINGW64 ~
+$ git remote add origin https://github.com/samuel-konakalla/Test.git
+fatal: Not a git repository (or any of the parent directories): .git
+
+om@om-PC MINGW64 ~
+$ git config --global user.email "common.man43215@gmail.com"
+
+om@om-PC MINGW64 ~
+$ git clone  https://github.com/samuel-konakalla/Test.git
+Cloning into 'Test'...
+remote: Counting objects: 30, done.
+remote: Compressing objects: 100% (26/26), done.
+remote: Total 30 (delta 7), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (30/30), done.
+
+om@om-PC MINGW64 ~
+$ git clone  https://github.com/samuel-konakalla/Test.git
+fatal: destination path 'Test' already exists and is not an empty directory.
+
+om@om-PC MINGW64 ~
+$ git clone  https://github.com/samuel-konakalla/Test.git
+Cloning into 'Test'...
+remote: Counting objects: 30, done.
+remote: Compressing objects: 100% (26/26), done.
+remote: Total 30 (delta 7), reused 3 (delta 1), pack-reused 0
+Unpacking objects: 100% (30/30), done.
+
+om@om-PC MINGW64 ~
+$ git init
+Initialized empty Git repository in C:/Users/om/.git/
+
+om@om-PC MINGW64 ~ (master)
+$ pwd
+/c/Users/om
