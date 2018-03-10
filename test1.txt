@@ -13,4 +13,8 @@ this is commentesasasasasadvhashasas
 hello
 this is samuel 
 >>>>>>> data modified
+<<<<<<< HEAD
 im changing from my local 01:23 PM
+=======
+changed from github server on 1:25Pm
+>>>>>>> d10eb027fb44bdda5caa9f1fa9292ec987de6053
