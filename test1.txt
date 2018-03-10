@@ -14,7 +14,15 @@ hello
 this is samuel 
 >>>>>>> data modified
 <<<<<<< HEAD
+<<<<<<< HEAD
 changed from github server on 1:25Pm
 =======
 im changing from my local 01:23 PM
 >>>>>>> added comment from my local
+=======
+im changing from my local 01:23 PM
+=======
+changed from github server on 1:25Pm
+>>>>>>> d10eb027fb44bdda5caa9f1fa9292ec987de6053
+changed at github server at 01:34pm
+>>>>>>> a722f0b4ee9479d04c0554c430a78d05a7ebfed8
