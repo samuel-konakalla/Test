@@ -5,5 +5,11 @@ exsume
 final commit before crete branch
 as
 test case
+<<<<<<< HEAD
 this is commented
 babu changed
+=======
+this is commentesasasasasadvhashasas
+hello
+this is samuel 
+>>>>>>> data modified
